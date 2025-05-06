@@ -4,6 +4,7 @@ library(devtools)
 library(rsconnect)
 library(bslib)
 library(shiny)
+rsconnect::writeManifest()
 
 
 ui <- page_sidebar(
