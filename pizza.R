@@ -1,4 +1,6 @@
 #install.packages("rsconnect")
+#install.packages("devtools")
+library(devtools)
 library(rsconnect)
 library(bslib)
 library(shiny)
